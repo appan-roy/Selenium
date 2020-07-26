@@ -1,0 +1,33 @@
+package stepDef;
+
+import net.thucydides.core.annotations.Step;
+import pages.LoginPage;
+
+public class LoginPageSteps {
+
+	LoginPage lpage;
+	
+	@Step
+	public void openApp() {
+		
+		lpage.open();
+		
+	}
+	
+	@Step
+	public void enterCredentials() {
+		
+		lpage.enterUsername();
+		
+		lpage.enterPassword();
+		
+	}
+	
+	@Step
+	public void hitLogin() {
+		
+		lpage.clickLoginButton();
+		
+	}
+	
+}

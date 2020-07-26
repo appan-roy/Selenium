@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.buildship.ui.wizard.project.import">
+		<item value="LOCAL_INSTALLATION" key="gradle_distribution_type"/>
+		<item value="E:\Softwares\My PC Apps\Selenium\Gradle\gradle-6.4" key="gradle_distribution_configuration"/>
+		<item value="E:\Softwares\My PC Apps\Selenium\Workspace\LearnGradle" key="project_location"/>
+	</section>
+	<section name="org.eclipse.buildship.ui.wizard.project.creation">
+		<item value="LOCAL_INSTALLATION" key="gradle_distribution_type"/>
+		<item value="true" key="use_default_location"/>
+		<item value="" key="gradle_user_home"/>
+		<item value="E:\Softwares\My PC Apps\Selenium\Gradle\gradle-6.4" key="gradle_distribution_configuration"/>
+		<item value="E:\Softwares\My PC Apps\Selenium\Workspace\GradleBuild" key="project_location"/>
+	</section>
+</section>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="APPAN-PC" name="dataDrivenTechniques.UsingExcel" tests="3" failures="0" timestamp="28 Oct 2019 14:10:47 GMT" time="48.49" errors="0">
+  <testcase name="loginToWordpress" time="16.763" classname="dataDrivenTechniques.UsingExcel"/>
+  <testcase name="loginToWordpress" time="14.028" classname="dataDrivenTechniques.UsingExcel"/>
+  <testcase name="loginToWordpress" time="13.329" classname="dataDrivenTechniques.UsingExcel"/>
+</testsuite>

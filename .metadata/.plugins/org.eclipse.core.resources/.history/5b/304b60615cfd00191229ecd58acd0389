@@ -1,0 +1,22 @@
+package com.framework.testcases;
+
+import org.testng.annotations.Test;
+
+public class LoginTest_OrangeHRM {
+
+	@Test(priority=1)
+	public void loginApp(){
+		
+		logger = report.createTest("Login to OrangeHRM");
+		
+		LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
+		
+		logger.info("Browser started");
+		
+		loginPage.loginToOrangeHRM(excel.getStringData("Login", 1, 0), excel.getStringData("Login", 1, 1));
+		
+		logger.pass("Login Success");
+		
+	}
+	
+}

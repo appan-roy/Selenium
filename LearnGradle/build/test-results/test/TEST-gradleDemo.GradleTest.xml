@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="gradleDemo.GradleTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-13T16:14:38" hostname="APPAN-PC" time="7.167">
+  <properties/>
+  <testcase name="Test" classname="gradleDemo.GradleTest" time="7.167"/>
+  <system-out><![CDATA[The title of the webpage is Google
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 36878
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1589386479.894][WARNING]: This version of ChromeDriver has not been tested with Chrome version 81.
+May 13, 2020 9:44:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1589386482.825][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589386483.128][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589386483.316][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589386483.420][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589386483.660][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589386483.763][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589386483.942][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589386484.099][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589386484.200][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589386484.306][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589386484.408][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+</testsuite>

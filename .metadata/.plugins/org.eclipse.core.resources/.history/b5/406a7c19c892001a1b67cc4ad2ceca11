@@ -1,0 +1,28 @@
+package finalKeywordDemo;
+
+public class FinalMethod extends SuperClass{
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+	
+	public void name() {
+		
+		System.out.println("Address is Bangalore");
+		
+	}
+	
+	public void address() {
+		
+		System.out.println("Address is Bangalore");
+		
+	}
+
+	public void contact() {
+		
+		System.out.println("Contact number is 9876543210");
+		
+	}
+}

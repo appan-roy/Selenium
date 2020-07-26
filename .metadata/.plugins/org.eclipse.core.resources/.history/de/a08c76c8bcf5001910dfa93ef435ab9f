@@ -1,0 +1,25 @@
+package autoITDemo;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class FileUpload {
+
+	public static void main(String[] args) throws Exception {
+		
+		System.setProperty("webdriver.chrome.driver", "E:\\Softwares\\My PC Apps\\Selenium\\Webdrivers\\chromedriver_win32\\chromedriver.exe");
+		
+		WebDriver driver = new ChromeDriver();
+ 
+		driver.get("file:///E:/Softwares/My%20PC%20Apps/Selenium/AutoIT/fileupload.html");
+		
+		driver.findElement(By.xpath("/html/body/input")).click();
+		
+		Thread.sleep(5000);
+		
+		Runtime.getRuntime().exec("E:\\Softwares\\My PC Apps\\Selenium\\AutoIT\\FileUpload.exe");
+
+	}
+
+}

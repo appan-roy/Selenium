@@ -1,0 +1,46 @@
+package starter.stepdefinitions;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import net.thucydides.core.annotations.Steps;
+import stepDef.HomePage;
+import stepDef.LoginPage;
+
+public class LoginTestOrangeHRM {
+
+	@Steps
+	LoginPage login;
+	
+	@Steps
+	HomePage home;
+	
+	@Given("user is on the login page")
+	public void user_is_on_the_login_page() {
+	    
+		
+		
+	}
+
+	@When("user enters valid username")
+	public void user_enters_valid_username() {
+	    
+		
+		
+	}
+
+	@When("user enters valid password")
+	public void user_enters_valid_password() {
+	    
+		
+		
+	}
+
+	@Then("user is able to login to the application")
+	public void user_is_able_to_login_to_the_application() {
+	    
+		
+		
+	}
+	
+}

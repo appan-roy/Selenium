@@ -1,0 +1,28 @@
+package chromeOptionsDemo;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+public class ChromeOptions {
+
+	public static void main(String[] args) {
+		
+		System.setProperty("webdriver.chrome.driver", "E:\\Softwares\\My PC Apps\\Selenium\\Chrome Driver 2.42 win32\\chromedriver.exe");
+		
+		DesiredCapabilities cap = new DesiredCapabilities();
+		
+		cap.setAcceptInsecureCerts(true);
+		
+		Chrome_Options options = new Chrome_Options();
+		
+		options.addArguments("--disable-infobars");
+		
+		WebDriver driver = new ChromeDriver(options);
+		
+		driver.get("https://www.google.com/");
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+package stepDef;
+
+import pages.HomePage;
+
+public class HomePageSteps {
+
+	HomePage hpage;
+	
+	public void sssssssss() {
+		
+		
+		
+	}
+	
+}

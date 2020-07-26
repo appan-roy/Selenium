@@ -1,0 +1,24 @@
+package com.framework.testcases;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
+
+import com.framework.pages.LoginPage;
+
+public class LoginTest_OrangeHRM {
+
+	WebDriver driver;
+	
+	@Test(priority=1)
+	public void loginApp(){
+		
+		
+		
+		LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
+		
+		
+		
+	}
+	
+}

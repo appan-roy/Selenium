@@ -1,0 +1,21 @@
+package finalKeywordDemo;
+
+public class FinalVar {
+
+	final String PANCARD;
+	
+	public FinalVar(String pancard) {
+		
+		PANCARD = pancard;
+		
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		
+		FinalVar obj1 = new FinalVar("ISTQB1234P");
+
+	}
+
+}

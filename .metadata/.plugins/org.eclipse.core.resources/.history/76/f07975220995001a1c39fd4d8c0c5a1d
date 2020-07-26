@@ -1,0 +1,7 @@
+auto.sync=false
+build.scans.enabled=false
+connection.gradle.distribution=GRADLE_DISTRIBUTION(LOCAL_INSTALLATION(E\:\\Softwares\\My PC Apps\\Selenium\\Gradle\\gradle-6.4))
+eclipse.preferences.version=1
+gradle.user.home=
+offline.mode=false
+override.workspace.settings=true

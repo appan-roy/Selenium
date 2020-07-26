@@ -1,0 +1,22 @@
+package serenityDemo;
+
+import org.openqa.selenium.WebDriver;
+
+import net.serenitybdd.core.annotations.findby.By;
+
+public class SerenityTest {
+
+	
+	WebDriver driver;
+	
+	public void myGoogleSearch() {
+		
+		driver.get("https://www.google.com/");
+		
+		driver.findElement(By.name("q")).sendKeys("Serenity BDD Framework");
+		
+		driver.quit();
+		
+	}
+	
+}

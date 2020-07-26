@@ -1,0 +1,23 @@
+package pages;
+
+public class OrangeHRMLoginPage {
+
+	public void checkTitle() {
+		
+		
+		
+	}
+	
+	public void enterCredentials() {
+		
+		
+		
+	}
+	
+	public void checkDashboard() {
+		
+		
+		
+	}
+	
+}

@@ -1,0 +1,38 @@
+package sikuliDemo;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.sikuli.script.Pattern;
+import org.sikuli.script.Screen;
+
+public class LoginTest {
+
+	public static void main(String[] args) throws Exception {
+		
+		Pattern username_img = new Pattern("E:\\Softwares\\My PC Apps\\Selenium\\Sikuli\\OrangeHRM - Img Obj Repository\\Username.PNG");
+		
+		Pattern password_img = new Pattern("E:\\Softwares\\My PC Apps\\Selenium\\Sikuli\\OrangeHRM - Img Obj Repository\\Password.PNG");
+		
+		Pattern loginbtn_img = new Pattern("E:\\Softwares\\My PC Apps\\Selenium\\Sikuli\\OrangeHRM - Img Obj Repository\\Login Button.PNG");
+		
+		System.setProperty("webdriver.chrome.driver", "E:\\Softwares\\My PC Apps\\Selenium\\Webdrivers\\chromedriver_win32\\chromedriver.exe");
+		
+		WebDriver driver = new ChromeDriver();
+		
+		driver.manage().window().maximize();
+		
+		driver.get("https://opensource-demo.orangehrmlive.com/");
+		
+		Screen scr = new Screen();
+		
+		scr.wait(username_img, 5);
+		
+		scr.type(username_img, "Admin");
+		
+		scr.type(password_img, "admin123");
+		
+		scr.click(loginbtn_img);
+
+	}
+
+}

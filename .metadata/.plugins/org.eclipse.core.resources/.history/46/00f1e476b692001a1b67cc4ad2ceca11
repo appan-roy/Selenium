@@ -1,0 +1,24 @@
+package wrapperClassDemo;
+
+public class BoxingUnboxing {
+
+	public static void main(String[] args) {
+		
+		// The value of a which is 100 is assigned automatically to the Integer class. This is known as Autoboxing.
+		int a = 100;
+		
+		Integer b = a;
+		
+		System.out.println(b);
+		
+		
+		// The value of a which is 100 is assigned to the Integer class. This is known as Boxing.
+		int x = 90;
+		
+		Integer y = Integer.valueOf(x);
+		
+		System.out.println(y);
+		
+	}
+
+}

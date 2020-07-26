@@ -1,0 +1,28 @@
+package pages;
+
+import net.thucydides.core.annotations.Step;
+
+public class LoginPage {
+
+	@Step("This step will verify the title")
+	public void verifyTitle() {
+		
+		
+		
+	}
+	
+	@Step("This step will allow us to login to the application")
+	public void validLogin() {
+		
+		
+		
+	}
+	
+	@Step("This step will verify the dashboard")
+	public void verifyDashboard() {
+	
+	
+	
+	}
+	
+}

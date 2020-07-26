@@ -1,0 +1,25 @@
+package pages;
+
+import net.serenitybdd.core.pages.PageObject;
+
+public class OrangeHRMLoginPage extends PageObject {
+
+	public void checkTitle() {
+		
+		
+		
+	}
+	
+	public void enterCredentials() {
+		
+		
+		
+	}
+	
+	public void checkDashboard() {
+		
+		
+		
+	}
+	
+}

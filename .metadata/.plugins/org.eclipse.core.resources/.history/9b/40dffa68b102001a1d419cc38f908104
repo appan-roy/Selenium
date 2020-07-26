@@ -1,0 +1,32 @@
+package desiredCapabilitiesDemo;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+public class Desired_Capabilities {
+
+	public static void main(String[] args) {
+		
+//		DesiredCapabilities caps = new DesiredCapabilities();
+//		
+//		caps.setCapability("ignoreProtectedModeSettings", true);
+		
+		System.setProperty("webdriver.ie.driver", "E:\\Softwares\\My PC Apps\\Selenium\\Webdrivers\\IEDriverServer_x64_3.14.0\\IEDriverServer.exe");
+		
+		WebDriver driver = new InternetExplorerDriver();
+		
+		driver.manage().window().maximize();
+		
+		driver.get("https://www.google.com/");
+		
+		driver.findElement(By.name("q")).sendKeys("Selenium");
+		
+		driver.findElement(By.name("btnK")).sendKeys(Keys.RETURN);
+
+	}
+
+}

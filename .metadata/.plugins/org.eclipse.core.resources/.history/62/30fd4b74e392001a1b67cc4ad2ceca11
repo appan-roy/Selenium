@@ -1,0 +1,30 @@
+package thisKeywordDemo;
+
+public class MyVar {
+
+	int x;
+	
+	int y;
+	
+	public MyVar(int x, int y) {
+		
+		x = x;
+		
+		y = y;
+		
+	}
+	
+	public void sum() {
+		
+		int sum = x + y;
+		
+		System.out.println("The sum is " + sum);
+		
+	}
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

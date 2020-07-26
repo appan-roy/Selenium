@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="APPAN-PC" name="jenkinsDemo.JenkinsTest" tests="1" failures="0" timestamp="29 Oct 2019 10:55:09 GMT" time="7.698" errors="0">
+  <testcase name="jenkinsTest" time="7.688" classname="jenkinsDemo.JenkinsTest"/>
+</testsuite>

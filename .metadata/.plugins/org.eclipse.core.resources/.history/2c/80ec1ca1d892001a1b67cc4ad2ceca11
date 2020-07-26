@@ -1,0 +1,19 @@
+package superKeywordDemo;
+
+public class ParentClass {
+
+	int intRate = 8;
+	
+	public void RBIIntRate() {
+		
+		System.out.println("The RBI interest rate is " + intRate);
+		
+	}
+	
+	public void bankName() {
+		
+		System.out.println("The bank name is RBI");
+		
+	}
+	
+}

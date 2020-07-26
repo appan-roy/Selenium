@@ -1,0 +1,19 @@
+package stepDef;
+
+public class LoginPageSteps {
+
+	
+	public void openApp() {
+		
+		
+		
+	}
+	
+	
+	public void enterCredentials() {
+		
+		
+		
+	}
+	
+}

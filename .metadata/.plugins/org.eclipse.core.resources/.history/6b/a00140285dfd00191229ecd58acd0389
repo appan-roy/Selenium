@@ -1,0 +1,25 @@
+package com.framework.testcases;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
+
+import com.framework.pages.LoginPage;
+import com.framework.utility.BrowserFactory;
+
+public class LoginTest_OrangeHRM {
+
+	WebDriver driver;
+	
+	@Test(priority=1)
+	public void loginApp(){
+		
+		driver = BrowserFactory.startApplication(driver, "Chrome", "https://opensource-demo.orangehrmlive.com");
+		
+		LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
+		
+		loginPage.loginToOrangeHRM("Admin", "admin123");
+		
+	}
+	
+}

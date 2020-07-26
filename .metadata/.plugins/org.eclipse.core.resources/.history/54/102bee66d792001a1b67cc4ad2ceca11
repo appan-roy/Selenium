@@ -1,0 +1,31 @@
+package superKeywordDemo;
+
+public class ChildClass extends ParentClass{
+
+	int intRate = 10;
+	
+	public static void main(String[] args) {
+		
+		ChildClass obj = new ChildClass();
+		
+		obj.HDFCIntRate();
+		
+	}
+	
+	public void HDFCIntRate() {
+		
+		System.out.println("The HDFC interest rate is " + intRate);
+		
+		System.out.println("The RBI interest rate is " + super.intRate);
+		
+	}
+	
+	public void bankName() {
+		
+		System.out.println("The bank name is HDFC");
+		
+		super.bankName();
+		
+	}
+
+}

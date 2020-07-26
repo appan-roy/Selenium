@@ -1,0 +1,28 @@
+package stepDef;
+
+import net.thucydides.core.annotations.Step;
+
+public class LoginPageSteps {
+
+	@Step
+	public void openApp() {
+		
+		
+		
+	}
+	
+	@Step
+	public void enterCredentials() {
+		
+		
+		
+	}
+	
+	@Step
+	public void hitLogin() {
+		
+		
+		
+	}
+	
+}

@@ -1,0 +1,15 @@
+package wrapperClassDemo;
+
+public class BoxingUnboxing {
+
+	public static void main(String[] args) {
+		
+		int a = 100;
+		
+		Integer b = a;
+		
+		System.out.println(b);
+		
+	}
+
+}

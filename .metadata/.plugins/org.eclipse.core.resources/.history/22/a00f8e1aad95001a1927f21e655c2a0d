@@ -1,0 +1,34 @@
+package pages;
+
+import org.junit.Assert;
+import org.openqa.selenium.By;
+
+import net.serenitybdd.core.pages.PageObject;
+
+public class OrangeHRMLoginPage extends PageObject {
+
+	public void checkTitle() {
+		
+		String title = getDriver().getTitle();
+		
+		Assert.assertTrue(title.contains("OrangeHRM"));
+		
+	}
+	
+	public void enterCredentials() {
+		
+		$(By.id("")).typeAndTab("");
+		
+		$(By.id("")).typeAndEnter("");
+		
+	}
+	
+	public void checkDashboard() {
+		
+		String dashboard = getDriver().getTitle();
+		
+		Assert.assertTrue(dashboard.contains("Dashboard"));
+		
+	}
+	
+}

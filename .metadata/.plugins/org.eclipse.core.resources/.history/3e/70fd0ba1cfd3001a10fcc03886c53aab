@@ -1,0 +1,25 @@
+package tesseractOCRDemo;
+
+import java.io.File;
+
+import net.sourceforge.tess4j.ITesseract;
+import net.sourceforge.tess4j.Tesseract;
+import net.sourceforge.tess4j.TesseractException;
+
+public class ImageReader {
+
+	static File imageFile = new File("");
+	
+	public static void main(String[] args) {
+		
+		ITesseract img = new Tesseract();
+		
+		try {
+			img.doOCR(imageFile);
+		} catch (TesseractException e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}

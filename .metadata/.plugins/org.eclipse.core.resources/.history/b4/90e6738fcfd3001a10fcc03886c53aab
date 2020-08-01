@@ -1,0 +1,11 @@
+package tesseractOCRDemo;
+
+public class ImageReader {
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

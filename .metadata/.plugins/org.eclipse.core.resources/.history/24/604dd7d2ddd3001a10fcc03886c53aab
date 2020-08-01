@@ -1,0 +1,10 @@
+package tesseractOCRDemo;
+
+public class IRCTC_Captcha {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

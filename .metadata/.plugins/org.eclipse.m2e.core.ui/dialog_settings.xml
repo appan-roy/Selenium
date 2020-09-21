@@ -40,6 +40,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="E:\Softwares\My PC Apps\Selenium\Workspace\serenity-cucumber4-starter-master"/>
 			<item value="E:\Softwares\My PC Apps\Selenium\Serenity\serenity-cucumber4-starter-master"/>
 		</list>
 		<list key="projectNameTemplate">

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="LearnCucumber" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="testRunner.TestRunner" time="46.088">
+    <testsuite name="Feature: Test TestProject Login Scenario using Data Driven Approach and Page Object Model" time="46.088">
+      <testcase name="Test login with valid credential" classname="Test TestProject Login Scenario using Data Driven Approach and Page Object Model" time="18.263"/>
+      <testcase name="Test login with valid credential" classname="Test TestProject Login Scenario using Data Driven Approach and Page Object Model" time="13.308"/>
+      <testcase name="Test login with valid credential" classname="Test TestProject Login Scenario using Data Driven Approach and Page Object Model" time="14.517"/>
+    </testsuite>
+  </testsuite>
+</testrun>

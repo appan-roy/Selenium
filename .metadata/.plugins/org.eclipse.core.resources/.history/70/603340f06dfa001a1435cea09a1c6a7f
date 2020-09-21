@@ -1,0 +1,17 @@
+Feature: Test TestProject Login Scenario using Data Driven Approach and Page Object Model
+
+  Scenario Outline: Test login with valid credential
+    Given Open browser and launch application
+    When The user enters valid "<username>" and valid "<password>"
+    Then The user should be able to login successfully
+    Then Close the application
+
+    #		IMPORTANT: Before running this feature file, comment out the codes in the below files
+    #		"TestSteps.java", "LoginSteps_PF.java"
+    #		This is because this feature file has the same glue codes in the below feature files
+    #		"DataDrivenTesting.feature" , "PageFactory.feature"
+    Examples: 
+      | username | password |
+      | Steve    |    12345 |
+      | Maria    |    12345 |
+      | Elena    |    12345 |

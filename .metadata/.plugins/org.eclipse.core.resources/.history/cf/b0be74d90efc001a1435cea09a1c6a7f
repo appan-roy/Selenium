@@ -1,0 +1,122 @@
+package reportingDemo;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+import io.qameta.allure.Description;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
+
+public class AllureReport {
+
+	WebDriver driver;
+	
+	@BeforeTest
+	public void setUp() {
+		
+		WebDriverManager.chromedriver().setup();
+		
+		driver = new ChromeDriver();
+		
+		driver.manage().window().maximize();
+		
+	}
+	
+	@AfterTest
+	public void tearDown() {
+		
+		driver.quit();
+		
+	}
+	
+	@Test(priority = 1, description = "Verify launch application")
+	@Description("Verify launch application")
+	@Epic("Orange HRM")
+	@Feature("Start application")
+	@Story("Story : User should be able to launch application")
+	@Severity(SeverityLevel.BLOCKER)
+	public void openApplication() {
+		
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		
+		driver.get("https://opensource-demo.orangehrmlive.com/");
+		
+	}
+	
+	@Test(priority = 2, description = "Verify login to application")
+	@Description("Verify login to application")
+	@Epic("Orange HRM")
+	@Feature("Login to application")
+	@Story("Story : User should be able to login to application")
+	@Severity(SeverityLevel.CRITICAL)
+	public void loginToApplication() {
+		
+		driver.findElement(By.id("txtUsername")).sendKeys("Admin");
+		driver.findElement(By.id("txtPassword")).sendKeys("admin123");
+		driver.findElement(By.id("btnLogin")).click();
+
+	}
+	
+	@Test(priority = 3, description = "Verify dashboard present")
+	@Description("Verify dashboard present")
+	@Epic("Orange HRM")
+	@Feature("Presence of Dashboard")
+	@Story("Story : Dashboard should be present")
+	@Severity(SeverityLevel.MINOR)
+	public void validateLogin() {
+		
+		boolean dashboardDisplayed = driver.findElement(By.xpath("//*[@id=\"menu_dashboard_index\"]/b")).isDisplayed();
+		
+		Assert.assertEquals(dashboardDisplayed, true);
+		
+		if(dashboardDisplayed)
+			System.out.println("Login successful");
+		else
+			System.out.println("Login failed");
+		
+	}
+	
+	@Test(priority = 4, description = "Verify logout from application")
+	@Description("Verify logout from application")
+	@Epic("Orange HRM")
+	@Feature("Logout from Application")
+	@Story("Story : User should be able to logout from application")
+	@Severity(SeverityLevel.NORMAL)
+	public void logoutFromApplication() {
+		
+		driver.findElement(By.id("welcome")).click();
+		driver.findElement(By.linkText("Logout")).click();
+		
+	}
+	
+	@Test(priority = 5, description = "Verify login button present")
+	@Description("Verify login button present")
+	@Epic("Orange HRM")
+	@Feature("Presence of Login Button")
+	@Story("Story : Login button should be present")
+	@Severity(SeverityLevel.MINOR)
+	public void validateLogout() {
+		
+		boolean loginBtnDisplayed = driver.findElement(By.id("btnLogin")).isDisplayed();
+		
+		Assert.assertEquals(loginBtnDisplayed, true);
+		
+		if(loginBtnDisplayed)
+			System.out.println("Logout successful");
+		else
+			System.out.println("Logout failed");
+		
+	}
+	
+}

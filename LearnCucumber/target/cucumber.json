@@ -1,0 +1,316 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Test login with valid credential",
+        "description": "",
+        "id": "test-orangehrm-login-scenario;test-login-with-valid-credential",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18670788655,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open chrome and start application",
+            "match": {
+              "location": "CucumberDemo.Open_chrome_and_start_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2813787218,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter valid \"Admin\" and valid \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 15
+                },
+                {
+                  "val": "admin123",
+                  "offset": 33
+                }
+              ],
+              "location": "CucumberDemo.I_enter_valid_username_and_valid_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7304542224,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should be able to login successfully",
+            "match": {
+              "location": "CucumberDemo.user_should_be_able_to_login_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 864292481,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the application should be closed",
+            "match": {
+              "location": "CucumberDemo.the_application_should_be_closed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Test OrangeHRM Login Scenario",
+    "description": "",
+    "id": "test-orangehrm-login-scenario",
+    "keyword": "Feature",
+    "uri": "Features/CucumberDemo.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Test login with valid credential",
+        "description": "",
+        "id": "test-orangehrm-login-scenario-using-data-driven-approach;test-login-with-valid-credential;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8952012746,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open chrome and launch application",
+            "match": {
+              "location": "DataDrivenTesting.Open_chrome_and_start_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2828034194,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user enters valid \"Admin\" and valid \"admin12\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 23
+                },
+                {
+                  "val": "admin12",
+                  "offset": 41
+                }
+              ],
+              "location": "DataDrivenTesting.I_enter_valid_username_and_valid_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2493369457,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user should be able to login successfully",
+            "match": {
+              "location": "DataDrivenTesting.user_should_be_able_to_login_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 789396075,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "close the application",
+            "match": {
+              "location": "DataDrivenTesting.the_application_should_be_closed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Test login with valid credential",
+        "description": "",
+        "id": "test-orangehrm-login-scenario-using-data-driven-approach;test-login-with-valid-credential;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8958900196,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open chrome and launch application",
+            "match": {
+              "location": "DataDrivenTesting.Open_chrome_and_start_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2752049378,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user enters valid \"Admin\" and valid \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 23
+                },
+                {
+                  "val": "admin123",
+                  "offset": 41
+                }
+              ],
+              "location": "DataDrivenTesting.I_enter_valid_username_and_valid_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3700598341,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user should be able to login successfully",
+            "match": {
+              "location": "DataDrivenTesting.user_should_be_able_to_login_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 821543856,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "close the application",
+            "match": {
+              "location": "DataDrivenTesting.the_application_should_be_closed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Test login with valid credential",
+        "description": "",
+        "id": "test-orangehrm-login-scenario-using-data-driven-approach;test-login-with-valid-credential;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9841795721,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open chrome and launch application",
+            "match": {
+              "location": "DataDrivenTesting.Open_chrome_and_start_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2782698266,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user enters valid \"Admin\" and valid \"admin1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 23
+                },
+                {
+                  "val": "admin1234",
+                  "offset": 41
+                }
+              ],
+              "location": "DataDrivenTesting.I_enter_valid_username_and_valid_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2093054118,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user should be able to login successfully",
+            "match": {
+              "location": "DataDrivenTesting.user_should_be_able_to_login_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 881826566,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "close the application",
+            "match": {
+              "location": "DataDrivenTesting.the_application_should_be_closed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Test OrangeHRM Login Scenario using Data Driven Approach",
+    "description": "",
+    "id": "test-orangehrm-login-scenario-using-data-driven-approach",
+    "keyword": "Feature",
+    "uri": "Features/DataDrivenTesting.feature",
+    "tags": []
+  }
+]

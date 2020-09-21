@@ -1,0 +1,9 @@
+package reportingDemo;
+
+import org.testng.ITestListener;
+
+public class Allure implements ITestListener {
+
+	
+	
+}

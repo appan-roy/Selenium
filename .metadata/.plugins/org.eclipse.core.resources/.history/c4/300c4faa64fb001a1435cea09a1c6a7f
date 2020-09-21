@@ -1,0 +1,39 @@
+package elementsHandlingDemo;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class DatePicker {
+
+	public static void main(String[] args) {
+		
+		String checkInDate = "23 September, 2020";
+		String checkOutDate = "24 September, 2020";
+		
+		String chkInArr[] = checkInDate.split(" ", 2);
+		String chkInDay = chkInArr[0];
+		String chkInMonth = chkInArr[1];
+		
+		String chkOutArr[] = checkOutDate.split(" ", 2);
+		String chkOutDay = chkOutArr[0];
+		String chkOutMonth = chkOutArr[1];
+		
+		System.setProperty("webdriver.chrome.driver", "E:\\Softwares\\My PC Apps\\Selenium\\Webdrivers\\chromedriver_win32\\chromedriver.exe");
+		
+		WebDriver driver = new ChromeDriver();
+		
+		driver.manage().window().maximize();
+		
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		
+		driver.get("https://phptravels.net/");
+		
+		
+		
+		
+
+	}
+
+}

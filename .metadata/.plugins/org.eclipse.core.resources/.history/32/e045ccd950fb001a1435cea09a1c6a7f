@@ -1,0 +1,32 @@
+package exceptionHandlingDemo;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class StaleElementException {
+
+	WebDriver driver;
+	
+	public void setUp() {
+		
+		System.setProperty("webdriver.chrome.driver", "E:\\Softwares\\My PC Apps\\Selenium\\Webdrivers\\chromedriver_win32\\chromedriver.exe");
+		
+		driver = new ChromeDriver();
+		
+		driver.manage().window().maximize();
+		
+	}
+	
+	public void tearDown() {
+		
+		driver.quit();
+		
+	}
+	
+	public void test1() {
+		
+		
+		
+	}
+
+}

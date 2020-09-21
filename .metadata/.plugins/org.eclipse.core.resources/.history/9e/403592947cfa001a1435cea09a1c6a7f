@@ -1,0 +1,22 @@
+#This tag overwrites all the below tags - @smoke, @sanity, @regression. Tags can be inherited from parent to child.
+@tag
+Feature: Title of your feature
+  I want to use this template for my feature file
+
+  @smoke
+  Scenario: Scenario
+
+  @sanity
+  Scenario: Scenario 2
+
+  @regression
+  Scenario: Scenario 3
+
+  @smoke @sanity
+  Scenario: Scenario 4
+
+  @smoke @regression
+  Scenario: Scenario 5
+
+  @sanity @regression
+  Scenario: Scenario 6

@@ -1,0 +1,54 @@
+package elementsHandlingDemo;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class DatePicker {
+
+	public static void main(String[] args) throws InterruptedException {
+		
+		//initialize check in and check out date
+		String checkInDate = "23 October, 2020";
+		
+		//separate date, month and year
+		String chkInArr[] = checkInDate.split(" ", 2);
+		String chkInDate = chkInArr[0].trim();
+		String chkInMonthYearArr [] = chkInArr[1].split(",");
+		String chkInMonth = chkInMonthYearArr[0].trim();
+		String chkInYear = chkInMonthYearArr[1].trim();
+				
+		//launch application
+		System.setProperty("webdriver.chrome.driver", "E:\\Softwares\\My PC Apps\\Selenium\\Webdrivers\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.get("http://testautomationpractice.blogspot.com/");
+		
+		//select check in date
+		driver.findElement(By.id("datepicker")).click();
+		
+		Thread.sleep(1000);
+		
+		while(true) {
+
+			String ChkInMonth = driver.findElement(By.xpath("//*[@id='ui-datepicker-div']/div/div/span[1]")).getText();
+			
+			System.out.println(ChkInMonth);
+			
+			if(ChkInMonth.equals(chkInMonth))
+				break;
+			else
+				driver.findElement(By.xpath("//*[@id='datepickers-container']/div[1]/nav/div[3]/svg")).click();
+			
+		}
+		
+		driver.findElement(By.xpath("//*[@id='datepickers-container']/div[1]/div/div/div[2]/div[contains(text(),"+chkInDate+")]")).click();
+		//*[@id="datepickers-container"]/div[1]/div/div/div[2]/div
+		//*[@id="datepickers-container"]/div[1]/div/div/div[2]/div[18]
+		
+	}
+
+}

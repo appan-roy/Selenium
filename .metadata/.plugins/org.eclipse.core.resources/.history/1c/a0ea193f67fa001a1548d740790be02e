@@ -1,0 +1,13 @@
+Feature: Test OrangeHRM Login Scenario using Data Driven Approach
+
+  Scenario Outline: Test login with valid credential
+    Given Open chrome and start application
+    When I enter valid "<username>" and valid "<password>"
+    Then user should be able to login successfully
+    Then the application should be closed
+
+    Examples: 
+      | username | password  |
+      | Admin    | admin12   |
+      | Admin    | admin123  |
+      | Admin    | admin1234 |

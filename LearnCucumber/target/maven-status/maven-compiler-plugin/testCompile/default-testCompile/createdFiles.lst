@@ -1,3 +1,8 @@
-stepDefinition\TestSteps.class
 testRunner\TestRunner.class
-testRunner\TestRunner_Reports.class
+stepDefinition\CucumberDemo.class
+stepDefinition\PageFactory.class
+stepDefinition\PageObjectModel.class
+pageFactory\LoginPage_PF.class
+pageFactory\HomePage_PF.class
+pages\LoginPage_POM.class
+stepDefinition\DataDrivenTesting.class

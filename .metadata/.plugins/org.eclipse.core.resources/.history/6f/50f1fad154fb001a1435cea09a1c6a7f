@@ -1,0 +1,48 @@
+package exceptionHandlingDemo;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+public class StaleElementException {
+
+	WebDriver driver;
+	
+	@BeforeTest
+	public void setUp() {
+		
+		System.setProperty("webdriver.chrome.driver", "E:\\Softwares\\My PC Apps\\Selenium\\Webdrivers\\chromedriver_win32\\chromedriver.exe");
+		
+		driver = new ChromeDriver();
+		
+		driver.manage().window().maximize();
+		
+	}
+	
+	@AfterTest
+	public void tearDown() {
+		
+		driver.quit();
+		
+	}
+	
+	@Test
+	public void test1() {
+		
+		driver.get("https://freecrm.co.in/index.html");
+		
+		WebElement LogIn = driver.findElement(By.xpath("/html/body/div[1]/header/div/nav/div[2]/div/div[2]/ul/a/span[2]"));
+		
+		LogIn.click();
+		
+		driver.navigate().back();
+		
+		LogIn.click();
+		
+	}
+
+}

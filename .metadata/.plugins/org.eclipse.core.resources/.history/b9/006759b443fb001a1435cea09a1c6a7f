@@ -1,0 +1,26 @@
+package hashMapDemo;
+
+import java.util.HashMap;
+
+public class LoginTest {
+
+	static HashMap <String, String> loginData(){
+		
+		HashMap <String, String> hMap = new HashMap <String, String>();
+		
+		hMap.put("ADMIN", "Admin|admin123");
+		hMap.put("IT", "It|it123");
+		hMap.put("ACCOUNT", "Acc|acc123");
+		hMap.put("HR", "Hr|hr123");
+		
+		return hMap;
+		
+	}
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

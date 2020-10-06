@@ -5,20 +5,20 @@
       {
         "name": "the user should be able to login successfully",
         "aggregatedDurations": {
-          "average": 2.762340638,
-          "median": 2.493369457
+          "average": 7.485565377,
+          "median": 4.218438229
         },
         "durations": [
           {
-            "duration": 2.493369457,
+            "duration": 4.218438229,
             "location": "Features/DataDrivenTesting.feature:7"
           },
           {
-            "duration": 3.700598341,
+            "duration": 14.970306555,
             "location": "Features/DataDrivenTesting.feature:7"
           },
           {
-            "duration": 2.093054118,
+            "duration": 3.267951347,
             "location": "Features/DataDrivenTesting.feature:7"
           }
         ]
@@ -31,12 +31,12 @@
       {
         "name": "I enter valid \"Admin\" and valid \"admin123\"",
         "aggregatedDurations": {
-          "average": 2.813787218,
-          "median": 2.813787218
+          "average": 3.000035659,
+          "median": 3.000035659
         },
         "durations": [
           {
-            "duration": 2.813787218,
+            "duration": 3.000035659,
             "location": "Features/CucumberDemo.feature:6"
           }
         ]
@@ -49,12 +49,12 @@
       {
         "name": "the user enters valid \"Admin\" and valid \"admin12\"",
         "aggregatedDurations": {
-          "average": 2.828034194,
-          "median": 2.828034194
+          "average": 2.856868182,
+          "median": 2.856868182
         },
         "durations": [
           {
-            "duration": 2.828034194,
+            "duration": 2.856868182,
             "location": "Features/DataDrivenTesting.feature:6"
           }
         ]
@@ -62,12 +62,12 @@
       {
         "name": "the user enters valid \"Admin\" and valid \"admin123\"",
         "aggregatedDurations": {
-          "average": 2.752049378,
-          "median": 2.752049378
+          "average": 2.970311822,
+          "median": 2.970311822
         },
         "durations": [
           {
-            "duration": 2.752049378,
+            "duration": 2.970311822,
             "location": "Features/DataDrivenTesting.feature:6"
           }
         ]
@@ -75,12 +75,12 @@
       {
         "name": "the user enters valid \"Admin\" and valid \"admin1234\"",
         "aggregatedDurations": {
-          "average": 2.782698266,
-          "median": 2.782698266
+          "average": 2.875901746,
+          "median": 2.875901746
         },
         "durations": [
           {
-            "duration": 2.782698266,
+            "duration": 2.875901746,
             "location": "Features/DataDrivenTesting.feature:6"
           }
         ]
@@ -93,20 +93,20 @@
       {
         "name": "close the application",
         "aggregatedDurations": {
-          "average": 0.830922165,
-          "median": 0.821543856
+          "average": 1.543851175,
+          "median": 0.849708106
         },
         "durations": [
           {
-            "duration": 0.789396075,
+            "duration": 0.782224292,
             "location": "Features/DataDrivenTesting.feature:8"
           },
           {
-            "duration": 0.821543856,
+            "duration": 2.999621128,
             "location": "Features/DataDrivenTesting.feature:8"
           },
           {
-            "duration": 0.881826566,
+            "duration": 0.849708106,
             "location": "Features/DataDrivenTesting.feature:8"
           }
         ]
@@ -119,12 +119,12 @@
       {
         "name": "Open chrome and start application",
         "aggregatedDurations": {
-          "average": 18.670788655,
-          "median": 18.670788655
+          "average": 41.561918041,
+          "median": 41.561918041
         },
         "durations": [
           {
-            "duration": 18.670788655,
+            "duration": 41.561918041,
             "location": "Features/CucumberDemo.feature:5"
           }
         ]
@@ -137,12 +137,12 @@
       {
         "name": "user should be able to login successfully",
         "aggregatedDurations": {
-          "average": 7.304542224,
-          "median": 7.304542224
+          "average": 50.115670274,
+          "median": 50.115670274
         },
         "durations": [
           {
-            "duration": 7.304542224,
+            "duration": 50.115670274,
             "location": "Features/CucumberDemo.feature:7"
           }
         ]
@@ -155,12 +155,12 @@
       {
         "name": "the application should be closed",
         "aggregatedDurations": {
-          "average": 0.864292481,
-          "median": 0.864292481
+          "average": 0.89531783,
+          "median": 0.89531783
         },
         "durations": [
           {
-            "duration": 0.864292481,
+            "duration": 0.89531783,
             "location": "Features/CucumberDemo.feature:8"
           }
         ]
@@ -173,20 +173,20 @@
       {
         "name": "Open chrome and launch application",
         "aggregatedDurations": {
-          "average": 9.250902887,
-          "median": 8.958900196
+          "average": 25.394914847,
+          "median": 27.655291587
         },
         "durations": [
           {
-            "duration": 8.952012746,
+            "duration": 31.973720051,
             "location": "Features/DataDrivenTesting.feature:5"
           },
           {
-            "duration": 8.958900196,
+            "duration": 27.655291587,
             "location": "Features/DataDrivenTesting.feature:5"
           },
           {
-            "duration": 9.841795721,
+            "duration": 16.555732903,
             "location": "Features/DataDrivenTesting.feature:5"
           }
         ]

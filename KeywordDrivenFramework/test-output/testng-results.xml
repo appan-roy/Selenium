@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="75535" started-at="2020-10-02T21:19:02 IST" finished-at="2020-10-02T21:20:18 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="75535" started-at="2020-10-02T21:19:02 IST" finished-at="2020-10-02T21:20:18 IST">
+      <class name="com.qa.hrm.tests.TestRunner">
+        <test-method status="PASS" signature="chromeTest()[pri:0, instance:com.qa.hrm.tests.TestRunner@3fd7a715]" name="chromeTest" duration-ms="34885" started-at="2020-10-02T21:19:02 IST" finished-at="2020-10-02T21:19:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chromeTest -->
+        <test-method status="PASS" signature="firefoxTest()[pri:0, instance:com.qa.hrm.tests.TestRunner@3fd7a715]" name="firefoxTest" duration-ms="40484" started-at="2020-10-02T21:19:37 IST" finished-at="2020-10-02T21:20:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firefoxTest -->
+      </class> <!-- com.qa.hrm.tests.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

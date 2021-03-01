@@ -1,4 +1,4 @@
-#This tag overwrites all the below tags - @smoke, @sanity, @regression. Tags can be inherited from parent to child.
+# This tag overwrites all the below tags - @smoke, @sanity, @regression. Tags can be inherited from parent to child.
 @tag
 Feature: Test TestProject Login Scenario using Data Driven Approach and Page Object Model
 

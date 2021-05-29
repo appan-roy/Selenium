@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 public class HardAssertion {
 	
 	// Hard Assert throws an AssertExceptionimmediately when an assert statement fails and test suite continues with next @Test //
+	// stop on failure
 	
 	@Test
 	public void test1(){

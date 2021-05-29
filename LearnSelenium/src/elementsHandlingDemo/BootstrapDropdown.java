@@ -21,7 +21,7 @@ public class BootstrapDropdown {
 		driver.get("http://seleniumpractise.blogspot.in/2016/08/bootstrap-dropdown-example-for-selenium.html");
 		
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		
+
 		driver.findElement(By.xpath("//*[@id='menu1']")).click();
 		
 		List<WebElement> dropdown = driver.findElements(By.xpath("//ul[@class='dropdown-menu']//li/a"));
@@ -39,7 +39,7 @@ public class BootstrapDropdown {
 				
 			}
 			
-			System.out.println("The the dropdown value is "+innerhtml);
+			System.out.println("The dropdown value is "+innerhtml);
 			
 		}
 		

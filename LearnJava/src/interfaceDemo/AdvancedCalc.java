@@ -18,7 +18,7 @@ public class AdvancedCalc implements BasicCalc{
 		
 	}
 	
-		public void add(int a, int b) {
+	public void add(int a, int b) {
 		
 		int sum = a + b;
 		

@@ -7,6 +7,7 @@ public class SoftAssertion {
 	
 	
 	// Soft Assert collects errors during @Test. Soft Assert does not throw an exception when an assert fails and would continue with the next step after the assert statement //
+	// continue on failure
 	
 	@Test
 	public void testSoft(){

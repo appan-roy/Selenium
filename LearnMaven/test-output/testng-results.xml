@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="1086" started-at="2020-09-21T15:50:07Z" finished-at="2020-09-21T15:50:08Z">
+  <suite name="Default suite" duration-ms="8064" started-at="2021-05-28T09:30:00Z" finished-at="2021-05-28T09:30:08Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="1086" started-at="2020-09-21T15:50:07Z" finished-at="2020-09-21T15:50:08Z">
-      <class name="mavenDemo.MavenBuildTest">
-        <test-method status="PASS" signature="testMaven()[pri:0, instance:mavenDemo.MavenBuildTest@29876704]" name="testMaven" duration-ms="348" started-at="2020-09-21T15:50:07Z" finished-at="2020-09-21T15:50:07Z">
+    <test name="Default test" duration-ms="8064" started-at="2021-05-28T09:30:00Z" finished-at="2021-05-28T09:30:08Z">
+      <class name="databaseTestingDemo.ConnectMySQL">
+        <test-method status="PASS" signature="getAllFromDBTable()[pri:0, instance:databaseTestingDemo.ConnectMySQL@5e77f0f4]" name="getAllFromDBTable" duration-ms="7009" started-at="2021-05-28T09:30:01Z" finished-at="2021-05-28T09:30:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMaven -->
-      </class> <!-- mavenDemo.MavenBuildTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- getAllFromDBTable -->
+      </class> <!-- databaseTestingDemo.ConnectMySQL -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -30,14 +30,10 @@ public class HiddenElements {
 			
 			int x = radio.get(i).getLocation().getX();
 			
-			if(x!=0){
-				
+			if(x != 0){
 				radio.get(i).click();
-				break;
-				
+				break;	
 			}
-				
-			
 		}
 
 	}

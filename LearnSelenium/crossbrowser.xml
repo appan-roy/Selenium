@@ -3,39 +3,24 @@
 <suite name="Suite" parallel="tests">
 	
 	<test name="firefoxTest">
-
 		<parameter name="browser" value="firefox"/>
-		
 		<classes>
-			
 			<class name="crossBrowserDemo.VerifyPageTitle" />
-
 		</classes>
-
 	</test> <!-- Test -->
 	
 	<test name="chromeTest">
-
 		<parameter name="browser" value="chrome"/>
-		
 		<classes>
-			
 			<class name="crossBrowserDemo.VerifyPageTitle" />
-
 		</classes>
-
 	</test> <!-- Test -->
 	
 	<test name="IETest">
-
 		<parameter name="browser" value="ie"/>
-		
 		<classes>
-			
 			<class name="crossBrowserDemo.VerifyPageTitle" />
-
 		</classes>
-
 	</test> <!-- Test -->
 	
 </suite> <!-- Suite -->

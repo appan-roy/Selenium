@@ -5,8 +5,7 @@ public class Child extends Parent {
 	// constructor 3
     Child()
     {
-        System.out.println("No-argument constructor " + 
-                           "of derived");
+        System.out.println("No-argument constructor of child");
     }
   
     // parameterized constructor 4
@@ -14,8 +13,7 @@ public class Child extends Parent {
     {
         // invokes base class constructor 2
         super(name);
-        System.out.println("Calling parameterized " + 
-                           "constructor of derived");
+        System.out.println("Calling parameterized constructor of child");
     }
 	
 }

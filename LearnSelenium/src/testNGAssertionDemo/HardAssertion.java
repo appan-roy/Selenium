@@ -17,18 +17,14 @@ public class HardAssertion {
 	
 	@Test
 	public void test2(){
-		
 		Assert.assertEquals(22, 23, "Number doesn't match");
-	
 	}
 	
 	@Test
 	public void test3(){
-		
 		System.out.println("Test Case Started");
 		Assert.assertEquals(32, 33, "Number doesn't match");
 		System.out.println("Test Case Completed");
-		
 	}
 	
 	@Test

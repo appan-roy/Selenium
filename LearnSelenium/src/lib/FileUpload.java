@@ -8,10 +8,12 @@ import org.testng.annotations.Test;
 
 public class FileUpload {
 	
+	String driverPath = "E:\\Softwares\\My PC Apps\\Selenium\\Chrome Driver 2.42 win32\\chromedriver.exe";
+	
 	@Test
 	public void fileupload() throws Exception{
 		
-		System.setProperty("webdriver.chrome.driver", "E:\\Softwares\\My PC Apps\\Selenium\\Chrome Driver 2.42 win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", driverPath);
 		
 		WebDriver driver = new ChromeDriver();
 		

@@ -11,13 +11,11 @@ public class SoftAssertion {
 	
 	@Test
 	public void testSoft(){
-		
 		SoftAssert assertion = new SoftAssert();
 		System.out.println("Test case started");
 		assertion.assertEquals(13, 12, "Test case failed");
 		System.out.println("Test case completed");
 		assertion.assertAll();
-		
 	}
 
 }

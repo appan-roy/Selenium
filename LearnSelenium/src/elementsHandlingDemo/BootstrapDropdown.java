@@ -26,7 +26,7 @@ public class BootstrapDropdown {
 		
 		List<WebElement> dropdown = driver.findElements(By.xpath("//ul[@class='dropdown-menu']//li/a"));
 		
-		for (int i =0; i < dropdown.size(); i++){
+		for (int i = 0; i < dropdown.size(); i++){
 			
 			WebElement elm = dropdown.get(i);
 			

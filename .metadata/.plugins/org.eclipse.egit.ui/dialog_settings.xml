@@ -9,9 +9,11 @@
 		<item value="https://github.com/appan-roy/Selenium-Framework.git"/>
 	</list>
 	<list key="CommitDialog.authorValues">
+		<item value="Appan Roy &lt;appan12345@gmail.com&gt;"/>
 		<item value="APPAN &lt;APPAN@APPAN-PC&gt;"/>
 	</list>
 	<list key="CommitDialog.committerValues">
+		<item value="Appan Roy &lt;appan12345@gmail.com&gt;"/>
 		<item value="APPAN &lt;APPAN@APPAN-PC&gt;"/>
 	</list>
 	<section name="org.eclipse.egit.ui.internal.push.PushResultDialog.dialogBounds">

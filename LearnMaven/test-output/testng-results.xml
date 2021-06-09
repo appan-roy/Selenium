@@ -1,17 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8064" started-at="2021-05-28T09:30:00Z" finished-at="2021-05-28T09:30:08Z">
+  <suite name="Default suite" duration-ms="1861" started-at="2021-06-07T05:04:39Z" finished-at="2021-06-07T05:04:40Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8064" started-at="2021-05-28T09:30:00Z" finished-at="2021-05-28T09:30:08Z">
-      <class name="databaseTestingDemo.ConnectMySQL">
-        <test-method status="PASS" signature="getAllFromDBTable()[pri:0, instance:databaseTestingDemo.ConnectMySQL@5e77f0f4]" name="getAllFromDBTable" duration-ms="7009" started-at="2021-05-28T09:30:01Z" finished-at="2021-05-28T09:30:08Z">
+    <test name="Default test" duration-ms="1861" started-at="2021-06-07T05:04:39Z" finished-at="2021-06-07T05:04:40Z">
+      <class name="interviewQnA.Demo">
+        <test-method status="PASS" signature="test3()[pri:0, instance:interviewQnA.Demo@1b28f282]" name="test3" duration-ms="584" started-at="2021-06-07T05:04:39Z" finished-at="2021-06-07T05:04:40Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getAllFromDBTable -->
-      </class> <!-- databaseTestingDemo.ConnectMySQL -->
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:interviewQnA.Demo@1b28f282]" name="test3" duration-ms="539" started-at="2021-06-07T05:04:39Z" finished-at="2021-06-07T05:04:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:interviewQnA.Demo@1b28f282]" name="test3" duration-ms="545" started-at="2021-06-07T05:04:39Z" finished-at="2021-06-07T05:04:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:interviewQnA.Demo@1b28f282]" name="test3" duration-ms="50" started-at="2021-06-07T05:04:40Z" finished-at="2021-06-07T05:04:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:interviewQnA.Demo@1b28f282]" name="test3" duration-ms="19" started-at="2021-06-07T05:04:40Z" finished-at="2021-06-07T05:04:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:interviewQnA.Demo@1b28f282]" name="test3" duration-ms="15" started-at="2021-06-07T05:04:40Z" finished-at="2021-06-07T05:04:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:interviewQnA.Demo@1b28f282]" name="test3" duration-ms="11" started-at="2021-06-07T05:04:40Z" finished-at="2021-06-07T05:04:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:interviewQnA.Demo@1b28f282]" name="test3" duration-ms="10" started-at="2021-06-07T05:04:40Z" finished-at="2021-06-07T05:04:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:interviewQnA.Demo@1b28f282]" name="test3" duration-ms="26" started-at="2021-06-07T05:04:40Z" finished-at="2021-06-07T05:04:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:interviewQnA.Demo@1b28f282]" name="test3" duration-ms="29" started-at="2021-06-07T05:04:40Z" finished-at="2021-06-07T05:04:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- interviewQnA.Demo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

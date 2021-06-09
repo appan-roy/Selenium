@@ -7,23 +7,17 @@ public class TestCaseGrouping {
 	
 	@Test(groups={"sanity"})
 	public void test1(){
-		
 		System.out.println("This is test case 1");
-		
 	}
 	
 	@Test(groups={"sanity", "smoke"})
 	public void test2(){
-		
 		System.out.println("This is test case 2");
-		
 	}
 	
 	@Test(groups={"regression"})
 	public void test3(){
-		
 		System.out.println("This is test case 3");
-		
 	}
 	
 	@Test

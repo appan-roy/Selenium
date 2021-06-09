@@ -1,5 +1,6 @@
 package synchronizationDemo;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 import com.google.common.base.Function;
 import org.openqa.selenium.*;
@@ -22,47 +23,30 @@ public class Fluent_Wait {
 		
 		driver.manage().window().maximize();
 		
-		FluentWait<WebDriver> wait = new FluentWait<WebDriver> (driver);
-		
-		wait.pollingEvery(400, TimeUnit.MILLISECONDS);
-		
-		wait.withTimeout(20, TimeUnit.SECONDS);
+		FluentWait<WebDriver> wait = new FluentWait<WebDriver> (driver)
+				.withTimeout(Duration.ofSeconds(30))
+				.pollingEvery(Duration.ofSeconds(1))
+				.ignoring(Exception.class);
 		
 		Function<WebDriver,Boolean> function = new Function<WebDriver,Boolean>(){
-			
 			@Override
-			public Boolean apply(WebDriver arg0){
-				
-				WebElement element = arg0.findElement(By.id("dynamicColor"));
-				
+			public Boolean apply(WebDriver driver){
+				WebElement element = driver.findElement(By.id("dynamicColor"));
 				String color = element.getAttribute("style");
-				
 				System.out.println("The color of the button is : " +color);
-				
 				if (color.contains("red")){
-					
 					return true;
-					
 				}
-				
 				return false;
-				
 			}
-			
 		};
 		
 		try {
-		
 			wait.until(function);
-			
 		} catch(TimeoutException e) {
-			
 			System.out.println("The element is not found");
-			
 		} catch (Exception e) {
-			
 			e.printStackTrace();
-			
 		}
 		
 	}

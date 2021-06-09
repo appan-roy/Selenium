@@ -17,6 +17,8 @@ public class ChildClass2 extends ChildClass1{
 		child2.div(56, 3);
 		
 		child2.mod(456, 7);
+		
+		child2.show();
 
 	}
 	
@@ -27,4 +29,9 @@ public class ChildClass2 extends ChildClass1{
 		System.out.println("The mod is "+mod);
 		
 	}
+	
+	public void show() {
+		System.out.println("Show from child class 2");
+	}
+
 }

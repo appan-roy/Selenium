@@ -7,9 +7,11 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class AuthenticationWindowHandling {
 
+	static String driverPath = "E:\\Softwares\\My PC Apps\\Selenium\\Webdrivers\\geckodriver-v0.26.0-win32\\geckodriver.exe";
+	
 	public static void main(String[] args) throws IOException, InterruptedException {
 		
-		System.setProperty("webdriver.gecko.driver", "E:\\Softwares\\My PC Apps\\Selenium\\Webdrivers\\geckodriver-v0.26.0-win32\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", driverPath);
 		
 		WebDriver driver = new FirefoxDriver();
 		

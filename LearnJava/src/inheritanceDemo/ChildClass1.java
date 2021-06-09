@@ -33,4 +33,9 @@ public class ChildClass1 extends BaseClass{
 		System.out.println("The sum is "+div);
 		
 	}
+	
+	public void show() {
+		System.out.println("Show from child class 1");
+	}
+	
 }

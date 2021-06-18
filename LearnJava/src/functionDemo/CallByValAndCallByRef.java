@@ -23,11 +23,9 @@ public class CallByValAndCallByRef {
 	}
 	
 	public void swap(CallByValAndCallByRef r) {
-		
 		int temp = r.a;
 		r.a = r.b;
 		r.b = temp;
-		
 	}
 
 }

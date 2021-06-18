@@ -40,31 +40,18 @@ public class VerifyLinks {
 
 	public static void verifyLinkActive(String linkUrl) {
 
-		try
-
-		{
-
+		try {
 			URL url = new URL(linkUrl);
-
 			HttpURLConnection httpURLConnect = (HttpURLConnection) url.openConnection();
-
 			httpURLConnect.setConnectTimeout(3000);
-
 			httpURLConnect.connect();
 
-			if (httpURLConnect.getResponseCode() == 200) {
-
+			if (httpURLConnect.getResponseCode() == 200)
 				System.out.println(linkUrl + " - " + httpURLConnect.getResponseMessage());
 
-			}
-
-			if (httpURLConnect.getResponseCode() == HttpURLConnection.HTTP_NOT_FOUND) {
-
+			if (httpURLConnect.getResponseCode() == HttpURLConnection.HTTP_NOT_FOUND)
 				System.out.println(linkUrl + " - " + httpURLConnect.getResponseMessage() + " - "
 						+ HttpURLConnection.HTTP_NOT_FOUND);
-
-			}
-
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

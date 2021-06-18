@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="SeleniumInterviewQnA"/>
+			<item value="selenium.java.interview.qna"/>
 			<item value="OrangeHRMKDF"/>
 			<item value="cucumber.bdd.learning"/>
 			<item value="cucumber-bdd-learning"/>
@@ -9,8 +11,12 @@
 			<item value="selenium.hybrid.framework"/>
 		</list>
 		<list key="name">
+			<item value="SeleniumInterviewQnA"/>
+			<item value="Selenium_Interview_QnA"/>
 		</list>
 		<list key="artifactId">
+			<item value="SeleniumInterviewQnA"/>
+			<item value="Selenium_Interview_QnA"/>
 			<item value="KeywordDrivenFramework"/>
 			<item value="LearnCucumberMaven"/>
 			<item value="LearnCucumber"/>
@@ -68,6 +74,8 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="E:\Softwares\My PC Apps\Selenium\Workspace"/>
+			<item value="E:\Softwares\My PC Apps\Selenium\Workspace\"/>
 			<item value="E:\Softwares\My PC Apps\Selenium\Workspace\LearnCucumber"/>
 			<item value="C:\Users\APPAN\git\Selenium-Framework\SeleniumHybridFramework"/>
 		</list>

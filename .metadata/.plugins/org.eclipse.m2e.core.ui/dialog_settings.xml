@@ -15,8 +15,8 @@
 			<item value="Selenium_Interview_QnA"/>
 		</list>
 		<list key="artifactId">
-			<item value="SeleniumInterviewQnA"/>
 			<item value="Selenium_Interview_QnA"/>
+			<item value="SeleniumInterviewQnA"/>
 			<item value="KeywordDrivenFramework"/>
 			<item value="LearnCucumberMaven"/>
 			<item value="LearnCucumber"/>

@@ -5,6 +5,8 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
 import java.net.URL;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -64,25 +66,11 @@ import com.google.common.base.Function;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Demo {
-
+	
 	public static void main(String[] args) throws IOException {
 
-		List<String> list1 = new ArrayList<String>();
-		list1.add("Java");
-		list1.add("JavaScript");
-		list1.add("Python");
-		list1.add("C");
-
-		List<String> list2 = new ArrayList<String>();
-		list1.add("Java");
-		list1.add("JavaScript");
-		list1.add("Python");
-		list1.add("C");
-
-		for (String string : list2) {
-			System.out.println(string);
-		}
+		
 
 	}
-
+	
 }

@@ -49,9 +49,6 @@
 <fullyQualifiedTypeName name="org.testng.IRetryAnalyzer"/>
 <fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlRegistry"/>
 <fullyQualifiedTypeName name="interviewQnA.MyRetry"/>
-<fullyQualifiedTypeName name="org.testng.annotations.Test"/>
-<fullyQualifiedTypeName name="org.testng.annotations.Factory"/>
-<fullyQualifiedTypeName name="java.net.HttpURLConnection"/>
 <fullyQualifiedTypeName name="java.net.URL"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
@@ -60,4 +57,7 @@
 <fullyQualifiedTypeName name="java.util.Set"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+<fullyQualifiedTypeName name="org.testng.annotations.Factory"/>
+<fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+<fullyQualifiedTypeName name="java.net.HttpURLConnection"/>
 </qualifiedTypeNameHistroy>

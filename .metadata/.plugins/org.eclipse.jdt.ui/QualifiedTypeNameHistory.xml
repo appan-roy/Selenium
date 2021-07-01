@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="abstractClassDemo.HRDept"/>
-<fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
-<fullyQualifiedTypeName name="java.util.Collections"/>
 <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
 <fullyQualifiedTypeName name="java.util.Iterator"/>
 <fullyQualifiedTypeName name="java.util.ListIterator"/>
@@ -24,8 +21,6 @@
 <fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.Sheet"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.FluentWait"/>
 <fullyQualifiedTypeName name="java.time.Duration"/>
-<fullyQualifiedTypeName name="io.github.bonigarcia.wdm.WebDriverManager"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.Keys"/>
 <fullyQualifiedTypeName name="lib.Utility"/>
 <fullyQualifiedTypeName name="org.testng.annotations.AfterMethod"/>
 <fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.DataFormatter"/>
@@ -36,7 +31,6 @@
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.Select"/>
 <fullyQualifiedTypeName name="java.util.TreeSet"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.support.ui.ExpectedConditions"/>
 <fullyQualifiedTypeName name="com.google.common.base.Function"/>
 <fullyQualifiedTypeName name="org.apache.log4j.xml.DOMConfigurator"/>
 <fullyQualifiedTypeName name="org.testng.annotations.Listeners"/>
@@ -50,14 +44,20 @@
 <fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlRegistry"/>
 <fullyQualifiedTypeName name="interviewQnA.MyRetry"/>
 <fullyQualifiedTypeName name="java.net.URL"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+<fullyQualifiedTypeName name="java.net.HttpURLConnection"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.ui.ExpectedConditions"/>
+<fullyQualifiedTypeName name="org.testng.annotations.Factory"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="java.util.Set"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.By"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
-<fullyQualifiedTypeName name="org.testng.annotations.Factory"/>
+<fullyQualifiedTypeName name="hooks.GeneralHooks"/>
 <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
-<fullyQualifiedTypeName name="java.net.HttpURLConnection"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.Keys"/>
+<fullyQualifiedTypeName name="io.github.bonigarcia.wdm.WebDriverManager"/>
+<fullyQualifiedTypeName name="vars.Variables"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

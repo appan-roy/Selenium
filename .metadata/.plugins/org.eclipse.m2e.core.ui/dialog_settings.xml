@@ -2,25 +2,13 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="SeleniumInterviewQnA"/>
-			<item value="selenium.java.interview.qna"/>
-			<item value="OrangeHRMKDF"/>
-			<item value="cucumber.bdd.learning"/>
-			<item value="cucumber-bdd-learning"/>
-			<item value="learn.cucumber.bdd"/>
-			<item value="selenium.hybrid.framework"/>
+			<item value="test.coderbyte"/>
 		</list>
 		<list key="name">
-			<item value="SeleniumInterviewQnA"/>
-			<item value="Selenium_Interview_QnA"/>
+			<item value="Automation Using selenium"/>
 		</list>
 		<list key="artifactId">
-			<item value="Selenium_Interview_QnA"/>
-			<item value="SeleniumInterviewQnA"/>
-			<item value="KeywordDrivenFramework"/>
-			<item value="LearnCucumberMaven"/>
-			<item value="LearnCucumber"/>
-			<item value="SeleniumHybridFramework"/>
+			<item value="CoderByte"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -75,6 +63,7 @@
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
 			<item value="E:\Softwares\My PC Apps\Selenium\Workspace"/>
+			<item value="E:\Softwares\My PC Apps\Selenium\Workspace\Selenium_Interview_QnA\pom.xml"/>
 			<item value="E:\Softwares\My PC Apps\Selenium\Workspace\"/>
 			<item value="E:\Softwares\My PC Apps\Selenium\Workspace\LearnCucumber"/>
 			<item value="C:\Users\APPAN\git\Selenium-Framework\SeleniumHybridFramework"/>

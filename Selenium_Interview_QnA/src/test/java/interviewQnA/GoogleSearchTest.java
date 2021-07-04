@@ -15,7 +15,7 @@ public class GoogleSearchTest {
 	
 	static WebDriver driver;
 	static String driverProp = "webdriver.chrome.driver";
-	static String driverPath = ".\\src\\main\\resources\\webdrivers\\chromedriver.exe";
+	static String driverPath = ".\\src\\main\\resources\\webdriver\\chromedriver.exe";
 
 	public static void main(String[] args) throws IOException {
 		
@@ -32,9 +32,14 @@ public class GoogleSearchTest {
 		
 		List<WebElement> tabs = driver.findElements(By.xpath(".//a[@class='hide-focus-ring']"));
 		
-		tabs.get(0).click();
+		for (WebElement tab : tabs) {
+			if(tab.getText().toString().trim().contains("News")) {
+				tab.click();
+				break;
+			}
+		}
 		
-		List<WebElement> agencies = driver.findElements(By.xpath(".//div[@class='XTjFC WF4CUc']/g-img"));
+		List<WebElement> agencies = driver.findElements(By.xpath(".//div[@class='XTjFC WF4CUc']"));
 		
 		List<String> agy_names = new ArrayList<String>();
 		

@@ -39,6 +39,9 @@ public class ConnectMySQL {
 			System.out.println(lname);
 		}
 		
+		// close the db connection
+		connect.close();
+		
 	}
 	
 }

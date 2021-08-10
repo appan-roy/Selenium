@@ -2,41 +2,44 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="list2" key="selection"/>
+		<item value="Binary" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="Bin"/>
+			<item value="ex"/>
+			<item value="list"/>
+			<item value="@Test"/>
+			<item value="res = null;"/>
+			<item value="en-GB"/>
+			<item value="language"/>
+			<item value="Kolkata"/>
+			<item value="profile.location"/>
+			<item value="IN"/>
+			<item value="country"/>
+			<item value="KnightRider90"/>
+			<item value="username"/>
 			<item value="list1"/>
 			<item value="static "/>
-			<item value="\\"/>
-			<item value="y"/>
-			<item value="x"/>
-			<item value="interface"/>
-			<item value="demo"/>
-			<item value="Students"/>
-			<item value="m"/>
-			<item value="k"/>
-			<item value="hr"/>
-			<item value="pq1"/>
-			<item value="list"/>
-			<item value="flag"/>
-			<item value="isPrime"/>
 		</list>
 		<list key="replacehistory">
+			<item value="Binary"/>
+			<item value="varArg"/>
+			<item value="list1"/>
 			<item value="list2"/>
+			<item value="@Ignore@Test"/>
 			<item value=""/>
+			<item value="https://lichess.org/@/KnightRider90"/>
+			<item value="url"/>
+			<item value="en-GB"/>
+			<item value="language"/>
+			<item value="Kolkata"/>
+			<item value="location"/>
+			<item value="IN"/>
+			<item value="profile.country"/>
 			<item value="/"/>
-			<item value="d.b"/>
-			<item value="d.a"/>
-			<item value="ref"/>
-			<item value="Student"/>
-			<item value="i"/>
-			<item value="it"/>
-			<item value="hs1"/>
-			<item value="pq1"/>
-			<item value="counter"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">

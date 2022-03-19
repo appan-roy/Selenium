@@ -93,6 +93,19 @@ public class ReverseString {
 		while (li.hasNext())
 			System.out.print(li.next());
 		System.out.println();
+		
+		// Method 10
+		char[] chArr1 = str.toCharArray();
+		int counter = str.length();
+		char[] revArr1 = new char[counter];
+
+		int i = 0;
+		while(i < counter){
+			revArr1[i] = chArr1[counter-1-i];
+			i++;
+		}
+
+		System.out.println(new String(revArr1));
 
 	}
 

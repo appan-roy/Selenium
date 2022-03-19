@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27960" started-at="2021-07-02T14:23:18Z" finished-at="2021-07-02T14:23:46Z">
+  <suite name="Default suite" duration-ms="224" started-at="2021-09-13T08:42:04Z" finished-at="2021-09-13T08:42:04Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27960" started-at="2021-07-02T14:23:18Z" finished-at="2021-07-02T14:23:46Z">
-      <class name="selenium.easy.date.pickers.JQueryDatePicker">
-        <test-method status="PASS" signature="testSetup()[pri:0, instance:selenium.easy.date.pickers.JQueryDatePicker@4667ae56]" name="testSetup" is-config="true" duration-ms="18307" started-at="2021-07-02T14:23:18Z" finished-at="2021-07-02T14:23:36Z">
+    <test name="Default test" duration-ms="224" started-at="2021-09-13T08:42:04Z" finished-at="2021-09-13T08:42:04Z">
+      <class name="interviewQnA.WebTest">
+        <test-method status="PASS" signature="testServer()[pri:0, instance:interviewQnA.WebTest@3b2da18f]" name="testServer" duration-ms="36" started-at="2021-09-13T08:42:04Z" finished-at="2021-09-13T08:42:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSetup -->
-        <test-method status="PASS" signature="dateRangePicker()[pri:0, instance:selenium.easy.date.pickers.JQueryDatePicker@4667ae56]" name="dateRangePicker" duration-ms="8760" started-at="2021-07-02T14:23:36Z" finished-at="2021-07-02T14:23:45Z">
+        </test-method> <!-- testServer -->
+        <test-method status="PASS" signature="testServer()[pri:0, instance:interviewQnA.WebTest@6b419da]" name="testServer" duration-ms="3" started-at="2021-09-13T08:42:04Z" finished-at="2021-09-13T08:42:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dateRangePicker -->
-        <test-method status="PASS" signature="testTeardown()[pri:0, instance:selenium.easy.date.pickers.JQueryDatePicker@4667ae56]" name="testTeardown" is-config="true" duration-ms="833" started-at="2021-07-02T14:23:45Z" finished-at="2021-07-02T14:23:46Z">
+        </test-method> <!-- testServer -->
+        <test-method status="PASS" signature="testServer()[pri:0, instance:interviewQnA.WebTest@7920ba90]" name="testServer" duration-ms="9" started-at="2021-09-13T08:42:04Z" finished-at="2021-09-13T08:42:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testTeardown -->
-      </class> <!-- selenium.easy.date.pickers.JQueryDatePicker -->
+        </test-method> <!-- testServer -->
+      </class> <!-- interviewQnA.WebTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

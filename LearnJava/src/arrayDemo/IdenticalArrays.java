@@ -41,7 +41,7 @@ public class IdenticalArrays {
         if(c==n)
         	System.out.println("The arrays are identical");
         else
-        	System.out.println("the arrays are not identical");
+        	System.out.println("The arrays are not identical");
         
         s.close();
 

@@ -33,7 +33,6 @@ import java.util.TreeSet;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
-import org.apache.log4j.xml.DOMConfigurator;
 import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
@@ -69,11 +68,10 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Demo {
 	
-	public static void main(String[] args) throws IOException {
-
+	public static void main(String[] args) {
+		
 		
 		
 	}
-
 
 }

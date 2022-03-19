@@ -6,3 +6,4 @@ Feature: Test OrangeHRM Login Scenario
     When I enter valid "Admin" and valid "admin123"
     Then user should be able to login successfully
     Then the application should be closed
+    

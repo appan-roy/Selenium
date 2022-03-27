@@ -2,44 +2,44 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="" key="selection"/>
+		<item value="noneMatch()" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="anyMatch()"/>
+			<item value="anyMatch"/>
+			<item value="Integer"/>
+			<item value="numList"/>
+			<item value="sList1"/>
+			<item value="empSalary"/>
+			<item value="empName"/>
+			<item value="prodList"/>
+			<item value="empid"/>
+			<item value="price"/>
+			<item value="name"/>
+			<item value="id"/>
+			<item value="Product"/>
+			<item value="Employee1"/>
 			<item value="log4j"/>
-			<item value="revArr"/>
-			<item value="chArr"/>
-			<item value="while"/>
-			<item value="physics_marks"/>
-			<item value="list1"/>
-			<item value="chArr.length"/>
-			<item value="Bin"/>
-			<item value="ex"/>
-			<item value="list"/>
-			<item value="@Test"/>
-			<item value="res = null;"/>
-			<item value="en-GB"/>
-			<item value="language"/>
-			<item value="Kolkata"/>
 		</list>
 		<list key="replacehistory">
+			<item value="noneMatch()"/>
+			<item value="allMatch"/>
+			<item value="String"/>
+			<item value="nameList"/>
+			<item value="sList2"/>
+			<item value="grade"/>
+			<item value="roll"/>
+			<item value="empList"/>
+			<item value="empId"/>
+			<item value="empSalary"/>
+			<item value="empName"/>
+			<item value="empid"/>
+			<item value="Employee"/>
+			<item value="Employee2"/>
 			<item value="revArr1"/>
-			<item value="chArr1"/>
-			<item value="chemistry_marks"/>
-			<item value="list2"/>
-			<item value="counter"/>
-			<item value="Binary"/>
-			<item value="varArg"/>
-			<item value="list1"/>
-			<item value="@Ignore@Test"/>
-			<item value=""/>
-			<item value="https://lichess.org/@/KnightRider90"/>
-			<item value="url"/>
-			<item value="en-GB"/>
-			<item value="language"/>
-			<item value="Kolkata"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">

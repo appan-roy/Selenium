@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.TreeSet"/>
-<fullyQualifiedTypeName name="com.google.common.base.Function"/>
-<fullyQualifiedTypeName name="org.apache.log4j.xml.DOMConfigurator"/>
-<fullyQualifiedTypeName name="org.testng.annotations.Listeners"/>
-<fullyQualifiedTypeName name="org.testng.annotations.DataProvider"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.support.ui.WebDriverWait"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.remote.BrowserType"/>
 <fullyQualifiedTypeName name="org.testng.ITestResult"/>
 <fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlRegistry"/>
 <fullyQualifiedTypeName name="interviewQnA.MyRetry"/>
-<fullyQualifiedTypeName name="java.net.URL"/>
 <fullyQualifiedTypeName name="java.net.HttpURLConnection"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.ExpectedConditions"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
@@ -58,6 +51,13 @@
 <fullyQualifiedTypeName name="java.util.Set"/>
 <fullyQualifiedTypeName name="java.util.Optional"/>
 <fullyQualifiedTypeName name="java.util.stream.Stream"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="utilities.CsvUtils"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.remote.DesiredCapabilities"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.Platform"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeOptions"/>
+<fullyQualifiedTypeName name="java.net.URL"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.remote.RemoteWebDriver"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
 </qualifiedTypeNameHistroy>

@@ -9,12 +9,12 @@ public class MissingMinimumPositiveIntegerInArray {
 	public static void main(String[] args) {
 		
 		int[] numbers1 = {1, 4, 5, 6, 1, 2};
-		int[] numbers2 = {1, 2, 3, 4, 5, 6};
+		int[] numbers2 = {1, 2, 3};
 		int[] numbers3 = {-1, -3};
 		
-		System.out.println(getMissingPosInt(numbers1));
-		System.out.println(getMissingPosInt(numbers2));
-		System.out.println(getMissingPosInt(numbers3));
+		System.out.println(getMissingPosInt(numbers1)); // 3
+		System.out.println(getMissingPosInt(numbers2)); // 4
+		System.out.println(getMissingPosInt(numbers3)); // 1
 
 	}
 
